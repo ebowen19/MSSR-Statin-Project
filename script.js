@@ -28,3 +28,10 @@
     span.onclick = function() { 
       modal.style.display = "none"; // Hide the modal again
     }
+
+// When the user clicks anywhere outside of the modal content (the image, header, or download link), close the modal
+modal.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}

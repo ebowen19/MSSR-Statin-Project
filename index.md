@@ -1,3 +1,3 @@
-[Red Killing](red_killin.html)
+[Red Killing](red_killing.html)
 
 [Green Killing]()

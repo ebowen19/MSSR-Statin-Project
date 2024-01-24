@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
 <html>
 <head>
   <title>Image Analysis Positive Controls</title>
@@ -22,10 +22,23 @@
       text-align: left;
     }
     
-    /* Center all content (including images) in all table columns */
+    /* Center all columns except the first and last */
     td {
-      text-align: center; /* Center text and content horizontally */
+      text-align: center;
     }
+
+    /* Exclude the first and last columns from the centering rule */
+    td:first-child,
+    td:nth-child(7) {
+      text-align: left; /* Keep the first and last columns left-aligned */
+    }
+
+    /* Center images in the 'Picture (thumbnail)' column */
+    td:nth-child(6) img {
+      display: block;
+      margin: 0 auto;
+    }
+
 
     
     .modal {

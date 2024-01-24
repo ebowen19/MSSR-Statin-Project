@@ -8,5 +8,5 @@
   <!-- other footer content -->
 
   <!-- Link to GitHub profile -->
-  <a href="https://github.com/ebowen19/MSSR-Statin-Project/" target="_blank">MSSR Statin Project Github Repository</a> with html, tif & jpg files
+  <small><a href="https://github.com/ebowen19/MSSR-Statin-Project/" target="_blank">MSSR Statin Project Github Repository</a> with html, tif & jpg files</small>
 </footer>

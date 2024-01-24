@@ -211,7 +211,10 @@
         modal.style.display = "block";
         modalImg.src = this.src;
         captionText.innerHTML = this.alt;
-        downloadLink.href = this.src; // Set the download link href to the source of the image
+
+        // Update the download link to point to the .tif file instead of the .jpg
+        var tifSrc = this.src.replace(".jpg", ".tif");
+        downloadLink.href = tifSrc;
       }
     });
 
@@ -223,6 +226,7 @@
       modal.style.display = "none";
     }
   </script>
+
 </body>
 </html>
 

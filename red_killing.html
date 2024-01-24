@@ -44,6 +44,7 @@
     }
     
     .modal {
+      display: none; /* default no modal */
       position: fixed; /* Stay in place */
       z-index: 1; /* Sit on top */
       left: 0;
@@ -58,13 +59,16 @@
       justify-content: center; /* Center horizontally */
     }
 
-    /* Modal Content (image) */
     .modal-content {
-      margin: auto;
-      display: block;
-      width: 80%;
-      max-width: 500px; /* Adjust as needed */
+      /* Set only one dimension (width or height) and leave the other to auto */
+      width: auto;       /* Adjust the width automatically */
+      height: auto;      /* Adjust the height automatically */
+      max-width: 80%;    /* Maximum width, adjust as needed */
+      max-height: 80%;   /* Maximum height, adjust as needed */
+      display: block;    /* Use block to center the image */
+      margin: auto;      /* Center the image horizontally */
     }
+
 
     /* Add Animation */
     .modal-content {

@@ -95,21 +95,22 @@ table {
 
     /* Close Button */
     .close {
-      position: absolute;
-      top: 15px;
-      right: 35px;
-      color: #f1f1f1;
-      font-size: 40px;
-      font-weight: bold;
-      transition: 0.3s;
-    }
+        position: absolute;
+        top: 15px;
+        right: 35px;
+        color: black; /* Change to black */
+        font-size: 40px;
+        font-weight: bold;
+        transition: 0.3s;
+      }
+      
+      .close:hover,
+      .close:focus {
+        color: #000; /* Change hover color to black or any other color as desired */
+        text-decoration: none;
+        cursor: pointer;
+      }
 
-    .close:hover,
-    .close:focus {
-      color: #bbb;
-      text-decoration: none;
-      cursor: pointer;
-    }
 
     /* Change styles for download link */
     .download-link {

@@ -11,7 +11,7 @@
 
     images.forEach(function(image) {
       image.onclick = function(){
-        modal.style.display = "block";
+        modal.style.display = "flex"; // Change display to flex when image is clicked
         modalImg.src = this.src;
         captionText.innerHTML = this.alt;
 
@@ -26,5 +26,5 @@
 
     // When the user clicks on <span> (x), close the modal
     span.onclick = function() { 
-      modal.style.display = "none";
+      modal.style.display = "none"; // Hide the modal again
     }

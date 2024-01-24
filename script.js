@@ -6,7 +6,7 @@
     var captionText = document.getElementById("caption");
     var downloadLink = document.querySelector('.download-link');
 
-    // Use a class to select all your images
+    // Use a class to select all  images
     var images = document.querySelectorAll('.thumbnail');
 
     images.forEach(function(image) {

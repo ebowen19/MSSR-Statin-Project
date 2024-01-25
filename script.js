@@ -35,3 +35,17 @@ modal.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+// Add event listeners to the modal-trigger elements
+document.querySelectorAll('.modal-trigger').forEach(function(element) {
+    element.addEventListener('click', function() {
+        var jpgSrc = this.getAttribute('data-img-src');
+        var fullJpgSrc = 'images/' + jpgSrc;
+        var tifSrc = fullJpgSrc.replace(".jpg", ".tif");
+
+        modal.style.display = "flex";
+        modalImg.src = fullJpgSrc;
+        captionText.innerHTML = this.innerText;
+        downloadLink.href = tifSrc;
+    });
+});

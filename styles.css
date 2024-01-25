@@ -53,6 +53,13 @@ table {
         flex-direction: column; /* Arrange children in a vertical stack */
       }
 
+    .modal-trigger {
+        cursor: pointer;
+        color: blue; /* or any other style */
+        text-decoration: underline;
+    }
+
+
 
     .modal-content {
       /* Set only one dimension (width or height) and leave the other to auto */

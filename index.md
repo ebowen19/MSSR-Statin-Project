@@ -1,6 +1,6 @@
-## Positive Controls HTML Tables:
-### 1. [Red Killing](red_killing.html)
-### 2. [Green Killing](green_killing.html)
+## HTML Tables:
+### 1. [Potential Red Killing](red_killing.html)
+### 2. [Potential Green Killing](green_killing.html)
 
 <footer>
   <br>

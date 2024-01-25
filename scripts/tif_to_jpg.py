@@ -1,7 +1,8 @@
+#%%
 import os
 from PIL import Image
 
-folder = '/Users/elizabeth 1/Library/CloudStorage/Box-Box/Elizabeth/MSSR-Statin-Project/images'
+folder = '../images'
 
 #%%
 for filename in os.listdir(folder):

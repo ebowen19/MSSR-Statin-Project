@@ -11,5 +11,5 @@ RUN conda env create -f /tmp/environment.yml
 ENV CONDA_DEFAULT_ENV=base
 
 # Ensure that the Conda environment is activated whenever a shell is launched
-RUN echo "source activate base" > ~/.bashrc
+RUN echo "conda activate base" > ~/.bashrc
 ENV PATH /opt/conda/envs/base/bin:$PATH

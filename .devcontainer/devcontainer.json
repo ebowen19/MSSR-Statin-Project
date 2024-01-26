@@ -1,0 +1,10 @@
+{
+    "name": "My Project",
+    "dockerFile": "Dockerfile",
+    "settings": { 
+      "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "postCreateCommand": "conda activate myenv",
+    "extensions": ["ms-python.python"]
+  }
+  

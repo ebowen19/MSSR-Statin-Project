@@ -3,7 +3,8 @@ import os
 from PIL import Image
 
 folder = '../images'
-
+#%%
+folder
 #%%
 for filename in os.listdir(folder):
     if filename.endswith(".tif"):
@@ -26,3 +27,5 @@ for filename in os.listdir(folder):
             print(f"JPEG version of '{filename}' already exists. Skipping conversion.")
 
 print("Conversion complete.")
+
+# %%

@@ -2,9 +2,7 @@
 import os
 from PIL import Image
 
-folder = '../images'
-#%%
-folder
+folder = '/workspaces/MSSR-Statin-Project/images'
 #%%
 for filename in os.listdir(folder):
     if filename.endswith(".tif"):
@@ -23,8 +21,9 @@ for filename in os.listdir(folder):
                 rgb_img = img.convert('RGB')
                 # Save the image as JPEG
                 rgb_img.save(new_file_path, "JPEG")
-        else:
-            print(f"JPEG version of '{filename}' already exists. Skipping conversion.")
+            print(f"converted '{filename}' to jpg.")
+        # else:
+        #     print(f"JPEG version of '{filename}' already exists. Skipping conversion.")
 
 print("Conversion complete.")
 

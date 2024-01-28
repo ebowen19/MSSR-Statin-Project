@@ -49,3 +49,8 @@ document.querySelectorAll('.modal-trigger').forEach(function(element) {
         downloadLink.href = tifSrc;
     });
 });
+
+window.addEventListener('scroll', function() {
+  var element = document.getElementById('key');
+  element.style.right = 10 - window.pageXOffset + 'px';
+});

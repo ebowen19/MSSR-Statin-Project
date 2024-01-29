@@ -1,4 +1,4 @@
-## HTML Tables:
+## High Throughput Screening HTML Tables:
 ### 1. [Potential Red Killing](red_killing.html)
 ### 2. [Potential Green Killing](green_killing.html)
 
